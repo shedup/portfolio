@@ -1,0 +1,28 @@
+html body{
+    background-color: #cfe4ff;
+}
+
+
+.mainHeader{
+    padding-top: 100px;
+    background-color: white;
+    height: 500px;
+}
+
+.mainHeader h1{
+    vertical-align: middle;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 1500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer,h1{
+    text-align: center;
+    cursor: pointer;
+}
