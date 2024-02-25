@@ -42,25 +42,36 @@ const Home = () => {
           <div>
             <h1 className="mb-6 text-2xl lg:text-6xl ">Let's Connect!</h1>
             <div className="flex w-1/3 justify-between">
-              <a className="inline mr-2 md:mr-8 w-20" href="/">
+              <a
+                className="inline mr-2 md:mr-8 w-20"
+                href="https://github.com/shedup"
+                target="_blank"
+              >
                 <IoLogoGithub size={"5em"} />
               </a>
-              <a className="inline mx-2 md:mx-8 w-20" href="/">
+              <a
+                className="inline mx-2 md:mx-8 w-20"
+                href="https://www.linkedin.com/in/shedup/"
+                target="_blank"
+              >
                 <FaLinkedin size={"5em"} />
               </a>
-              <a className="inline mx-2 md:mx-8 w-20" href="/">
+              <a
+                className="inline mx-2 md:mx-8 w-20"
+                href="mailto:chaksamt@gmail.com"
+              >
                 <MdOutlineEmail size={"5em"} />
               </a>
             </div>
           </div>
-          <div className="my-4 mt-12 sm:mt-0 mr-10 ">
+          {/* <div className="my-4 mt-12 sm:mt-0 mr-10 ">
             <h1 className="text-2xl lg:text-6xl ">My resume</h1>
             <div className="flex w-1/3 justify-between">
               <a className="inline w-20" href="/">
                 <IoDocumentText size={"5em"} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="my-12 md:my-18 lg:my-24">
           <hr className="w-4/5 text-center" />
