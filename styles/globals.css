@@ -1,33 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* @import url("../fonts/relevance/Relevance-trial-Regular-BF65d41be299a63.ttf"); */
+@font-face {
+  font-family: fa;
+  src: url(../fonts/relevance/Relevance-trial-Regular-BF65d41be299a63.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  font-family: fa;
+  /* background-color: rgb(17, 20, 70); */
+  background-color: rgb(17, 20, 20);
+  background-color: rgb(17 24 39);
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  color: white;
+}
+a:hover {
+  color: gray;
 }

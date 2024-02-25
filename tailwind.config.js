@@ -12,6 +12,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        custom: ["relevance-font-family", "relevance"],
+      },
+      screens: {
+        xxs: "480px", // Add your custom breakpoint size
+      },
     },
   },
   plugins: [],
