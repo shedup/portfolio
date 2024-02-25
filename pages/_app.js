@@ -16,7 +16,6 @@ export default function App({ Component, pageProps }) {
           name="keywords"
           content="Software Engineer, Portfolio, Shedup, Tenzin Chaksam"
         />
-        <link rel="icon" href="/static/vim.svg" />
       </Head>
       <Component {...pageProps} />;
     </div>
