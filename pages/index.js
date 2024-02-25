@@ -86,7 +86,7 @@ const Home = () => {
         <a href="https://bodja.org" target="_blank">
           <section className="py-20 border-t-2 border-b-2 border-gray-500">
             <h2 className="text-2xl lg:text-4xl">Bodja</h2>
-            <p>E Commerce Website for Bodja Podcast</p>
+            <p>E-Commerce Website for Bodja Podcast</p>
           </section>
         </a>
         <a href="https://passangholdings.com" target="_blank">
