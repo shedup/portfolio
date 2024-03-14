@@ -1,10 +1,14 @@
-import { Nav } from "@/components";
 import React from "react";
+import dynamic from "next/dynamic"; // Import dynamic from Next.js
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoDocumentText } from "react-icons/io5";
 import { FaArrowCircleUp } from "react-icons/fa";
+
+const Nav = dynamic(() => import("../components/Nav"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (
