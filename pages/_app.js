@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
           content="Software Engineer, Portfolio, Shedup, Tenzin Chaksam"
         />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   );
 }
