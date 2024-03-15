@@ -19,7 +19,7 @@ const Sketch = () => {
       p.draw = () => {
         // Your p5.js drawing code here
         let count = 190;
-        let size = 5;
+        let time = 0;
         let spacing = 10;
         let noiseScale = 0.5;
         for (let i = 0; i < count; i++) {
@@ -27,14 +27,19 @@ const Sketch = () => {
           for (let j = 0; j < count; j++) {
             let x = i * spacing;
             let y = j * spacing;
-            let noiseValue = p.noise(i * noiseScale, j * noiseScale);
-            let radius = p.map(noiseValue, 0, 1, 2, 8); // Map noise value to dot radius
-
-            p.fill(255);
+            let rand = Math.floor(Math.random() * 5);
+            let r2 = Math.floor(Math.random() * 5);
+            let distance = p.dist(x, y, p.width / 1, p.height / 2); // Calculate distance from center
+            let ripple =
+              p.sin(distance * 0.1 - time) + p.cos(distance * 0.1 + time); // Use sine and cosine to create ripples
+            let radius = p.map(ripple, -2, 2, 2, 8); // Map ripple to radius
+            p.fill(254);
             p.noStroke();
             p.ellipse(x, y, radius);
           }
         }
+
+        time += 0; // Increment time for animation
       };
     };
 
