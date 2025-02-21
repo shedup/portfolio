@@ -11,9 +11,6 @@ const Nav2 = () => {
           <a className="hover:underline" href="/">
             Home
           </a>
-          <a className="hover:underline" href="/art">
-            Experiment
-          </a>
         </div>
       </nav>
     </div>

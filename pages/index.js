@@ -32,12 +32,12 @@ const Home = () => {
       >
         <h1 className="mb-6 text-4xl lg:text-6xl ">About</h1>
         <p className="text-base lg:text-2xl w-4/5">
-          I am helping clients and organizations build their web applications by
-          proficiently navigating both front-end and back-end development. From
-          designing visually appealing user interfaces to implementing scalable
-          and robust software architectures, I contribute to the entire
-          application development lifecycle to ensure the successful creation of
-          comprehensive and efficient solutions.
+          I am helping clients and organizations build their online presence by
+          building full stack web applications and SEO. From designing visually
+          appealing user interfaces to implementing scalable and robust software
+          architectures, I contribute to the entire application development
+          lifecycle to ensure the successful creation of comprehensive and
+          efficient solutions.
         </p>
         <div className="my-12 md:my-18 lg:my-24">
           <hr className="w-4/5 text-center" />
@@ -87,16 +87,22 @@ const Home = () => {
         className="h-full my-26 mx-4 lg:my-56 lg:ml-16"
       >
         <h1 className="mb-6 text-4xl lg:text-6xl pt-10">Projects</h1>
-        <a href="https://bodja.org" target="_blank">
+        <a href="https://ponsferreus.com/" target="_blank">
           <section className="py-20 border-t-2 border-b-2 border-gray-500">
-            <h2 className="text-2xl lg:text-4xl">Bodja</h2>
-            <p>E-Commerce Website for Bodja Podcast</p>
+            <h2 className="text-2xl lg:text-4xl">Pons Ferreus Solutions</h2>
+            <p>A digital agency.</p>
           </section>
         </a>
-        <a href="https://passangholdings.com" target="_blank">
+        <a href="https://passangholdings.com/" target="_blank">
           <section className="py-20 border-t-2 border-b-2 border-gray-500">
             <h2 className="text-2xl lg:text-4xl">Passang Holdings</h2>
             <p>An investment portfolio with blog posts.</p>
+          </section>
+        </a>
+        <a href="https://bodja.vercel.app/" target="_blank">
+          <section className="py-20 border-t-2 border-b-2 border-gray-500">
+            <h2 className="text-2xl lg:text-4xl">Bodja</h2>
+            <p>E-Commerce Website for Bodja Podcast</p>
           </section>
         </a>
       </section>
