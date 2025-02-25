@@ -45,6 +45,20 @@ const Home = () => {
         <div className="ml-0 sm:flex justify-between container mx-auto ">
           <div>
             <h1 className="mb-6 text-2xl lg:text-6xl ">Let's Connect!</h1>
+            <div
+              className="badge-base LI-profile-badge whitespace-nowrap"
+              data-locale="en_US"
+              data-size="medium"
+              data-theme="dark"
+              data-type="VERTICAL"
+              data-vanity="shedup"
+              data-version="v1"
+            >
+              <a
+                className="badge-base__link LI-simple-link"
+                href="https://www.linkedin.com/in/shedup?trk=profile-badge"
+              ></a>
+            </div>
             <div className="flex w-1/3 justify-between">
               <a
                 className="inline mr-2 md:mr-8 w-20"
@@ -52,13 +66,6 @@ const Home = () => {
                 target="_blank"
               >
                 <IoLogoGithub size={"5em"} />
-              </a>
-              <a
-                className="inline mx-2 md:mx-8 w-20"
-                href="https://www.linkedin.com/in/shedup/"
-                target="_blank"
-              >
-                <FaLinkedin size={"5em"} />
               </a>
               <a
                 className="inline mx-2 md:mx-8 w-20"
